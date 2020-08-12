@@ -9,7 +9,7 @@ The automation ([cdp_one_click](https://github.com/paulvid/cdp-one-click)) creat
 * EC2 instance names: `<prefix>-cdp-env*`
 * Dynamo DB table: `<prefix>-cdp-table`
 
-The script `cdp_tag_aws_resources.sh` adds the specified tag to the:
+The script `cdp_tag_aws_resources.sh` adds/modifies the specified tag for:
 - EC2 instances
 - EBS volumes
 - Dynamo DB table
