@@ -68,3 +68,5 @@ table_arn=$(aws dynamodb describe-table --table-name ${table_name} | jq -r '.Tab
 # Add the tag to the table
 echo "Setting the tag for the Dynamo table ${table_name} ($table_arn)"
 aws dynamodb tag-resource --resource-arn ${table_arn} --tags Key=${tag_name},Value=${tag_value}
+
+rm ${tmpfile}
