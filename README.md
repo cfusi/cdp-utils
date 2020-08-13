@@ -19,4 +19,4 @@ Usage:
 cdp_tag_aws_resources.sh <prefix> <tag_name> <tag_value>
 ```
 
-The value of `<prefix>` must be the same specified in the cdp_one automation ([configuration file](https://github.com/paulvid/cdp-one-click#detailed-format))
+The value of `<prefix>` must be the same specified in the cdp-one-click automation ([configuration file](https://github.com/paulvid/cdp-one-click#detailed-format))
