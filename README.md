@@ -2,7 +2,7 @@
 This repo contains some utility scripts to apply on top of the very useful CDP Public automation ([cdp_one_click](https://github.com/paulvid/cdp-one-click)).
 
 ### Prereqs
-You need to have the CDP CLI and the AWS CLI already configured.
+You need to have the AWS CLI already configured.
 
 ### Tag the AWS resources of a CDP publiv env
 The automation ([cdp_one_click](https://github.com/paulvid/cdp-one-click)) creates the AWS resources naming them after the environment prefix:
