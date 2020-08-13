@@ -35,7 +35,7 @@ prefix=$1
 tag_name=$2
 tag_value=$3
 
-# Get the details of EBS instances for the prefix
+# Get the details of EBS instances for the prefix. The value of the tag "Name" starts with <prefix>
 tmpfile=$(mktemp /tmp/aws_XXXX)
 aws ec2 describe-instances --filters Name=tag:Name,Values=${prefix}* > ${tmpfile}
 
