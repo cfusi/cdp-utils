@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 
 display_usage() {
  echo "
